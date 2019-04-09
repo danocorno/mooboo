@@ -1,10 +1,81 @@
-<h1 style="text-align: center;">Dann ODonnell</h1>
-<img class=" size-full wp-image-85 aligncenter" src="https://mooboonet.files.wordpress.com/2019/04/timeline.png" alt="timeline" width="1077" height="181" />
-<h2 style="float: left; text-align: center;"><a href="https://mooboonet.wordpress.com/about/">Who Is Dann
-<img class=" size-full wp-image-22 alignleft" src="https://mooboonet.files.wordpress.com/2016/08/dann-ice-cream.png" alt="dann-ice-cream" width="240" height="240" /></a></h2>
-<h2 style="float: left; text-align: center;"><a href="https://mooboonet.wordpress.com/horn-performance/">Horn Performance</a>
-<img class=" size-full wp-image-23 alignleft" src="https://mooboonet.files.wordpress.com/2016/08/paxman.png" alt="paxman" width="240" height="199" /></h2>
-<h2 style="float: left; text-align: center;"><a href="https://mooboonet.wordpress.com/horn-instruction/">Horn Instruction</a>
-<img class=" size-full wp-image-27 alignleft" src="https://mooboonet.files.wordpress.com/2016/08/horn-teacher1.png" alt="horn-teacher" width="240" height="238" /></h2>
-<h2 style="float: left; text-align: center;"><a href="https://mooboonet.wordpress.com/home/contact/">Contact</a>
-<img class=" size-full wp-image-29 alignleft" src="https://mooboonet.files.wordpress.com/2016/08/logo1.png" alt="logo" width="200" height="199" /></h2>
+<!doctype html>
+<script type="text/javascript">
+		//<![CDATA[	
+		var winW = (window.innerWidth) ? window.innerWidth : document.documentElement.offsetWidth;
+		
+		if (winW < 320)
+			{
+			document.write('<html class="no-js width320" lang="en"> ');
+			}
+		else if (winW < 640)
+			{
+			document.write('<html class="no-js width640" lang="en"> ');
+			}
+		else
+			{
+			document.write('<html class="no-js widthwide" lang="en"> ');
+			}			
+		}		
+		//]]>
+</script>
+<noscript>
+	<html class="no-js widthwide" lang="en">
+</noscript>	
+<head>
+  <meta charset="utf-8">
+  <title>Dann ODonnell</title>
+  <meta name="description" content="Dann ODonnell, coverting oxygen to CO2, in San Diego California...also playing French Horn">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/custom.css">
+  <meta name="theme-color" content="#fafafa">
+</head>
+<body>
+  <!--[if IE]>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+  <![endif]-->
+<div w3-include-html="menu.htm" id="menu"></div>
+<div w3-include-html="content.htm" id="content"></div>
+  <script src="js/vendor/modernizr-3.7.1.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')</script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
+  <script>includeHTML();</script>
+
+<script>$(".width320 .toggle").hide();</script>
+<script>
+	{
+	function toggle_visibility(id) 
+		{
+		var winW = (window.innerWidth) ? window.innerWidth : document.documentElement.offsetWidth;
+		if (winW < 640)
+			{
+			$(".toggle").hide();
+			var e = document.getElementById(id);
+			if(e.style.display == 'block')
+				{
+				e.style.display = 'none';
+				}
+			else
+				e.style.display = 'block';
+			}
+		}
+	}
+</script>
+
+  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+<!-- 
+  <script>
+    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set','transport','beacon'); ga('send', 'pageview')
+  </script>
+  <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+-->
+</body>
+
+</html>
