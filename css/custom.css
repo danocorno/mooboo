@@ -1,2 +1,7 @@
-*{font-family: 'Dancing Script', cursive;}
+*{
+  font-family: 'Dancing Script', cursive;
+}
+body{
+  padding:1em;
+}
 h1{font-family: 'Pacifico', cursive;}
