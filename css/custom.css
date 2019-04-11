@@ -5,7 +5,7 @@ body{
   padding:1em;
 }
 h1{font-family: 'Pacifico', cursive;}
-h2,h3,h4{
+h2 h3 h4{
 /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#b4ddb4+0,83c783+17,52b152+33,008a00+67,005700+83,002400+100;Green+3D+%231 */
 background: #080; /* Old browsers */
 background: -moz-linear-gradient(top, #ddd 0%, #080 100%); /* FF3.6-15 */
