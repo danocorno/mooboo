@@ -5,3 +5,15 @@ body{
   padding:1em;
 }
 h1{font-family: 'Pacifico', cursive;}
+h1 h2 h3 h4 h5 h6{
+  background: rgb(0,136,0);
+  background: -moz-linear-gradient(0deg, rgba(0,136,0,0) 0%, rgba(0,136,0,1) 100%);
+  background: -webkit-linear-gradient(0deg, rgba(0,136,0,0) 0%, rgba(0,136,0,1) 100%);
+  background: linear-gradient(0deg, rgba(0,136,0,0) 0%, rgba(0,136,0,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#008800",endColorstr="#008800",GradientType=1);
+  border: double 4px transparent;
+  border-radius: 1em;
+  background-image: linear-gradient(white, white), radial-gradient(circle at top left, #f00,#3020ff);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+}
