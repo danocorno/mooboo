@@ -37,6 +37,6 @@ h3, h4{
   padding: 0.33em;
   width: fit-content;
  }
-.width640 figure {
+.width640 figure,.width320 figure{
   display:none;
 }
