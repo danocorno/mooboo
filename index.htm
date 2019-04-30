@@ -1,5 +1,5 @@
 <!doctype html>
-<script type="text/javascript">
+<script>
 		//<![CDATA[	
 		var winW = (window.innerWidth) ? window.innerWidth : document.documentElement.offsetWidth;
 		
@@ -15,7 +15,6 @@
 			{
 			document.write('<html class="widthwide" lang="en"> ');
 			}			
-		}		
 		//]]>
 </script>
 <noscript>
@@ -38,6 +37,18 @@
   <script> emailE = 'mooboo.net'; emailE = ('dano' + '@' + emailE); </script> 
 </head>
 <body>
+	<script>
+		//<![CDATA[	
+		var winW = (window.innerWidth) ? window.innerWidth : document.documentElement.offsetWidth;
+		
+		if (winW < 640)
+			{
+			document.write('width less than 640<br />');
+			}
+				
+				
+		//]]>
+</script>
   <!--[if IE]>
     <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
   <![endif]-->
